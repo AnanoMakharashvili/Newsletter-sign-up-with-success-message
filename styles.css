@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-style {
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.stay-style {
+  margin-top: 15px;
+}
+.list-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  margin-top: 76px;
+}
+
+.icon-check-style {
+  display: flex;
+  flex-direction: column;
+  width: 21px;
+  gap: 21px;
+}
+
+.product-list-style {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 400;
+}
+
+.footer-style {
+  display: flex;
+  flex-direction: column;
+  margin-top: 96px;
+  gap: 13px;
+}
+.buttons-style {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#email-adress {
+  padding: 18 46 14;
+  width: 327px;
+}
+
+#subscribe-button {
+  padding: 18 46 14;
+  background-color: navy;
+  color: white;
+  text-decoration: none;
+}
