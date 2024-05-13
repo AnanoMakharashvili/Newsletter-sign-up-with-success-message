@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .header-style {
   display: flex;
   align-items: center;
@@ -19,4 +25,17 @@
 }
 .email-style {
   color: black;
+  font-weight: 700;
+}
+
+.paragraphe-style {
+  margin-left: 13px;
+}
+
+#dismiss-button {
+  width: 327px;
+  background: darkblue;
+  color: white;
+  padding: 18;
+  margin-top: 258px;
 }
