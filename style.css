@@ -38,4 +38,7 @@
   color: white;
   padding: 18;
   margin-top: 258px;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
 }
