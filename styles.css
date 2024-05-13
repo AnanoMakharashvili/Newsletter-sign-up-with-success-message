@@ -65,4 +65,34 @@
   background-color: navy;
   color: white;
   text-decoration: none;
+  width: 327px;
+}
+.illustration-sign-up-desktop-style {
+  display: none;
+}
+@media (min-width: 1024px) {
+  body {
+    background-color: navy;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    background-color: white;
+    width: 928px;
+    padding: 23px;
+    border-radius: 14px;
+  }
+  .illustration-sign-up-mobile-style {
+    display: none;
+  }
+
+  .illustration-sign-up-desktop-style {
+    display: block;
+  }
+
+  .container {
+    flex-direction: row-reverse;
+  }
 }
