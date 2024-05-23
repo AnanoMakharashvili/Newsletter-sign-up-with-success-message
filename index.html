@@ -3,11 +3,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/favicon-32x32.png" />
     <title>Newsletter sign up with success message</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
       <img
         src="assets/illustration-sign-up-desktop.svg"
         rel="illustration-sign-up-desktop"
@@ -48,13 +49,30 @@
               name="Email adress"
               placeholder="email@company.com"
             />
-            <div class="newsletter-style sub-button">
-              <a href="subscribing.html" id="subscribe-button"
-                >Subscribe to monthly newsletter</a
-              >
-            </div>
+            <button class="newsletter-style sub-button" id="subscribe-button">
+              Subscribe to monthly newsletter
+            </button>
           </div>
         </footer>
+      </div>
+    </div>
+    <div class="container-one-style" id="container-one-style">
+      <div class="box-style">
+        <a href="index.html"></a>
+        <div class="header-style">
+          <img
+            src="assets/icon-success.svg"
+            rel="icon-check"
+            class="icon-style"
+          />
+          <h1>Thanks for subscribing!</h1>
+        </div>
+        <p class="paragraphe-style">
+          A confirmation email has been sent to
+          <span class="email-style">ash@loremcompany.com. </span>Please open it
+          and click the button inside to confirm your subscription
+        </p>
+        <a href="index.html" id="dismiss-button">Dismiss message</a>
       </div>
     </div>
     <script src="script.js"></script>

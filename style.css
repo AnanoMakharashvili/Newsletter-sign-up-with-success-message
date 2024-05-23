@@ -6,19 +6,19 @@
   box-sizing: border-box;
 }
 
-.container {
+.container-one-style {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 22px;
+  display: none;
 }
 
 .box-style {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 305px;
 }
 .header-style {
   display: flex;
@@ -58,5 +58,9 @@
   }
   .container {
     background-color: white;
+    border-radius: 55px;
+  }
+  .container-one-style {
+    display: none;
   }
 }
